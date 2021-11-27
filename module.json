@@ -1,0 +1,22 @@
+{
+    "name": "Dashboard",
+    "alias": "dashboard",
+    "description": "",
+    "keywords": [
+        "framework",
+        "laravel",
+        "boilerplate",
+        "dashboard"
+    ],
+    "priority": 0,
+    "providers": [
+        "Modules\\Dashboard\\Providers\\DashboardServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "minimumCoreVersion": "",
+    "title": "Dashboard",
+    "version":"0.0.1",
+    "author": "Hafijul Islam"
+}
