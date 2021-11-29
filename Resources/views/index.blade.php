@@ -1,4 +1,4 @@
-@extends('admin::layouts.master')
+@extends('dashboard::layouts.master')
 
 @section('title', 'Dashboard')
 
@@ -28,10 +28,10 @@
 
 @section('body-class', 'sidebar-mini')
 
-@section('breadcrumbs', \Breadcrumbs::render())
+{{--@section('breadcrumbs', \Breadcrumbs::render())--}}
 
 @section('actions')
-    {!! \Html::backButton('admin.') !!}
+{{--    {!! \Html::backButton('home') !!}--}}
 @endsection
 
 @section('content')
