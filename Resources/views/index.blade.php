@@ -1,4 +1,4 @@
-@extends('dashboard::layouts.master')
+@extends('core::layouts.app')
 
 @section('title', 'Dashboard')
 
@@ -11,8 +11,7 @@
 @endpush
 
 @push('icon')
-    <!-- IonIcons -->
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
 @endpush
 
 @push('plugin-style')
