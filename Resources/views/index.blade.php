@@ -25,8 +25,6 @@
 
 @endpush
 
-@section('body-class', 'sidebar-mini')
-
 {{--@section('breadcrumbs', \Breadcrumbs::render())--}}
 
 @section('actions')
